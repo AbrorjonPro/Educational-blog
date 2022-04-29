@@ -1,0 +1,16 @@
+{% extends 'main.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+	<div class='container'>
+		<form method='POST'>
+			{% csrf_token %}
+			<fieldset class="mb-auto text-center">
+				<legend> Sign In</legend>
+				<hr>
+					{{ form|crispy }}
+			<button class='btn btn-outline-info' type='submit'>Sign In</button>
+
+			</fieldset>
+		</form>
+	</div>
+{% endblock %}

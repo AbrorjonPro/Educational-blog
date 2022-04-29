@@ -1,0 +1,13 @@
+venv/
+.env
+migrations/
+__init__.py
+__pycache__/
+IrrigatsiyaUz/.env
+media/
+env/
+db.sqlite3
+static/
+staticfiles/
+staticfolder/
+.env
